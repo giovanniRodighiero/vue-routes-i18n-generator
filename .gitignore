@@ -51,3 +51,8 @@ Icon
 ._*
 .Spotlight-V100
 .Trashes
+
+#build
+dist
+es
+umd

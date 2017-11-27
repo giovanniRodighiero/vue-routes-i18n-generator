@@ -6,13 +6,19 @@ Simple utility function that helps to handle multiple language routes through so
 
 ## Usage
 ```js
-const generateRoutes = require('vue-rotues-i18n-generator');
+import Router from 'vue-router'
+import { generateRoutes } from 'vue-rotues-i18n-generator'
+
+import Homepage from '@/containers/Homepage
+import Contacts from '@/containers/Contacts
+
+const DEFAULT_LOCALE = 'en'
 
 const routes = [
   {
     paths: ['/it', '/en', '/fr', '/de'],
-    name: 'faq',
-    component: Faq
+    name: 'homepage',
+    component: Homepage
   },
   {
     paths: ['/it/contatti', '/en/contacts', '/fr/contacts', '/de/kontakte'],
