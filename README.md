@@ -9,8 +9,8 @@ Simple utility function that helps to handle multiple language routes through so
 import Router from 'vue-router'
 import { generateRoutes } from 'vue-rotues-i18n-generator'
 
-import Homepage from '@/containers/Homepage
-import Contacts from '@/containers/Contacts
+import Homepage from '@/containers/Homepage'
+import Contacts from '@/containers/Contacts'
 
 const DEFAULT_LOCALE = 'en'
 
@@ -45,4 +45,4 @@ export default new Router({
 ```
 
 ## test
-still missing for now
+`npm run test`
