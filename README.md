@@ -1,7 +1,10 @@
 # vue-routes-i18n-generator
 Simple utility function that helps to handle multiple language routes throught some aliases.
 
-## installation
+## Installation
+`$ npm install @giovanniRodighiero/vue-rotues-i18n-generator`
+
+## Usage
 ```js
 const generateRoutes = require('@giovanniRodighiero/vue-rotues-i18n-generator');
 
@@ -34,3 +37,6 @@ export default new Router({
   ]
 });
 ```
+
+## test
+still missing for now
