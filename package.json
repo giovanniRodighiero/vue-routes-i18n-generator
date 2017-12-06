@@ -1,8 +1,11 @@
 {
   "name": "vue-routes-i18n-generator",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Vue Router multilanguage routes generator",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "unpkg": "umd/vue-routes-i18n-generator.min.js",
+  "jsnext:main": "es/index.js",
+  "module": "es/index.js",
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "npm run lint && npm run build:cjs && npm run build:es && npm run build:umd",
